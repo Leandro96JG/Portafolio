@@ -1,0 +1,41 @@
+nav{
+  @apply  backdrop-blur-sm shadow-xl w-max rounded-lg fixed z-50
+  top-5 left-0 right-0 mx-auto
+}
+
+ul{
+  @apply  flex items-baseline space-x-4
+}
+
+
+/*====== RUTA ACTIVA NO HACE NADA ======= */
+li.active{
+  @apply opacity-100 bg-shark-100 text-shark-800
+}
+
+li.active:hover{
+  @apply opacity-100 bg-shark-100 text-shark-800 cursor-default
+}
+
+/*====== LINKS NO ACTIVOS  ======= */
+
+li{
+  @apply  px-3 py-2 rounded-md text-sm font-medium
+  flex items-center justify-center transition-all ease-in
+}
+
+li:hover{
+  @apply bg-dune-200 cursor-pointer text-shark-800
+}
+
+
+
+
+
+
+/*================== ICONOS ============== */
+.icons{
+  @apply text-4xl
+}
+
+

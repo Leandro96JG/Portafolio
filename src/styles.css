@@ -5,6 +5,7 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  @apply bg-shark-950 text-dune-100
 }
 
 h1{
