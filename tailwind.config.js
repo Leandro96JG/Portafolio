@@ -19,6 +19,20 @@ module.exports = {
         '900': '#483e3b',
         '950': '#332b29',
     },
+    'azure': {
+        '50': '#edfbff',
+        '100': '#d6f3ff',
+        '200': '#b5edff',
+        '300': '#83e4ff',
+        '400': '#48d2ff',
+        '500': '#1eb4ff',
+        '600': '#0698ff',
+        '700': '#0077e6',
+        '800': '#0864c5',
+        '900': '#0d569b',
+        '950': '#0e345d',
+    },
+
    'shark': {
         '50': '#f4f7f7',
         '100': '#e2ebeb',
@@ -32,7 +46,7 @@ module.exports = {
         '900': '#354144',
         '950': '#1a2123',
     },
-    
+
 
   // El del fondo es 950
 
@@ -84,5 +98,12 @@ module.exports = {
         }
       })
     },
+    function({addUtilities}){
+      addUtilities({
+        '.bg-gradient-color':{
+          'background':'linear-gradient(to bottom left, #f4119e, #4a313e)',
+        }
+      })
+    }
   ],
 }

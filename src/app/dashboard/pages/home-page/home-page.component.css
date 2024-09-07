@@ -1,0 +1,53 @@
+
+header{
+  @apply relative
+}
+
+
+
+.bg-img{
+  @apply  h-[90vh]
+}
+.bg-img img{
+  @apply  h-full w-full object-cover filter brightness-75 opacity-100
+}
+
+/* ============= HEADER TEXT STYLE ============= */
+
+.header-text{
+  @apply absolute flex-col inset-0 flex items-center justify-center gap-5
+}
+
+
+.text-h3{
+  @apply flex items-center justify-center gap-x-2
+}
+
+.text-h1{
+  @apply text-gradient
+}
+
+/* ============== ICONS BUTTONS HEADER ===================== */
+
+.buttons-icons{
+  @apply flex justify-center items-center gap-3
+}
+
+.github-icon{
+  @apply  bg-gradient-color rounded-full flex items-center justify-center
+}
+
+.github-icon svg{
+  @apply  h-14 w-14 fill-shark-950
+}
+
+.link-icon{
+  @apply text-4xl text-shark-950 py-2 px-3 bg-gradient-color rounded-full
+}
+
+.link-icon:hover{
+  @apply text-azure-700 bg-shark-950
+}
+
+
+

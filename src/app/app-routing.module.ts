@@ -5,12 +5,12 @@ import { NotPageFoundComponent } from './dashboard/pages/not-page-found/not-page
 
 const routes: Routes = [
   {
-    path:'home',
+    path:'dashboard',
     loadChildren:()=>import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
   },
   {
     path:'',
-    redirectTo:'/home',
+    redirectTo:'/dashboard',
     pathMatch:'full',
   },
   {

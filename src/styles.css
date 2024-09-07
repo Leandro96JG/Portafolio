@@ -9,5 +9,13 @@ body{
 }
 
 h1{
-  @apply text-9xl font-extrabold
+  @apply text-8xl font-extrabold
 }
+h3{
+  @apply text-2xl font-semibold
+}
+h2{
+  @apply text-5xl font-bold
+}
+
+

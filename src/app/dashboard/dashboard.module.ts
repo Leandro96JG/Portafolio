@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { NavHeaderComponent } from './components/nav-header/nav-header.component';
 import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     LayoutComponent,
     NavHeaderComponent,
     NotPageFoundComponent,
-    HomePageComponent
+    HomePageComponent,
+    SobreMiComponent
   ],
   imports: [
     CommonModule,
