@@ -1,0 +1,51 @@
+.layout{
+  @apply flex justify-center h-auto items-center w-screen mt-20
+}
+/* ============= CONTENEDOR DEL TITULO =================*/
+.content{
+  @apply w-[800px] gap-2 flex flex-col
+}
+
+/* ============= CONTENEDOR DEL TITULO =================*/
+
+h2{
+  @apply text-4xl inline relative mx-auto md:mx-0
+}
+
+h2::after{
+  @apply content-[''] absolute left-0 bottom-0 w-14 h-0.5 bg-cerise-400
+}
+
+
+
+/* ============= CONTENEDOR DEL IMG Y TEXT =================*/
+
+.img-text{
+  @apply flex flex-col items-center gap-10
+}
+
+
+/* ============= CONTENEDOR DEL IMG =================*/
+
+
+.img-perfil{
+  @apply min-w-48 h-auto max-w-48 gap-10
+}
+
+img{
+  @apply rounded-full
+}
+
+/* ============= CONTENEDOR DE LOS TEXTOS =================*/
+
+section{
+  @apply flex flex-col gap-5 items-center text-center
+}
+
+h4{
+  @apply text-cerise-700 text-xl font-bold
+}
+
+.frase{
+  @apply italic text-cerise-800
+}

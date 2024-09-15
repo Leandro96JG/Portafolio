@@ -8,6 +8,7 @@ import { NavHeaderComponent } from './components/nav-header/nav-header.component
 import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
+import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
     NavHeaderComponent,
     NotPageFoundComponent,
     HomePageComponent,
-    SobreMiComponent
+    SobreMiComponent,
+    TecnologiasComponent
   ],
   imports: [
     CommonModule,

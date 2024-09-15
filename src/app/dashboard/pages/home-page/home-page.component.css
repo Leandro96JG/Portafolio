@@ -6,7 +6,7 @@ header{
 
 
 .bg-img{
-  @apply  h-[90vh]
+  @apply  h-screen
 }
 .bg-img img{
   @apply  h-full w-full object-cover filter brightness-75 opacity-100
@@ -30,23 +30,30 @@ header{
 /* ============== ICONS BUTTONS HEADER ===================== */
 
 .buttons-icons{
-  @apply flex justify-center items-center gap-3
+  @apply flex justify-center items-center gap-5
 }
 
 .github-icon{
-  @apply  bg-gradient-color rounded-full flex items-center justify-center
+  @apply  bg-dune-100 rounded-full flex items-center justify-center transition-colors ease-linear
+}
+.github-icon:hover{
+  @apply  bg-shark-950 cursor-pointer
 }
 
 .github-icon svg{
-  @apply  h-14 w-14 fill-shark-950
+  @apply  h-14 w-14 fill-shark-950 transition-colors ease-linear
+}
+.github-icon svg:hover{
+  @apply fill-dune-50
 }
 
+
 .link-icon{
-  @apply text-4xl text-shark-950 py-2 px-3 bg-gradient-color rounded-full
+  @apply text-4xl font-bold text-shark-950 py-2 px-3 bg-dune-100 rounded-full transition-colors ease-linear
 }
 
 .link-icon:hover{
-  @apply text-azure-700 bg-shark-950
+  @apply text-azure-700 bg-shark-950 cursor-pointer
 }
 
 

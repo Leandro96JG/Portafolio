@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
+import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 
 const routes: Routes = [
   {
@@ -14,8 +15,16 @@ const routes: Routes = [
         component:HomePageComponent,
       },
       {
-        path:'aboutme',
+        path:'about-me',
         component:SobreMiComponent,
+      },
+      {
+        path:'proyectos',
+        loadChildren:()=>import('./pages/proyectos/proyectos.module').then(m=>m.ProyectosModule),
+      },
+      {
+        path:'tecnologías',
+        component:TecnologiasComponent,
       },
       {
         path:'**',

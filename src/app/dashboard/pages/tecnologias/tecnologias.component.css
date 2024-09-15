@@ -1,0 +1,15 @@
+section{
+  @apply flex justify-center h-auto items-center w-screen mt-20
+}
+/* ============= CONTENEDOR DEL TITULO =================*/
+.content{
+  @apply w-[800px] gap-2 flex flex-col
+}
+
+h2{
+  @apply text-4xl inline relative mx-auto md:mx-0
+}
+
+h2::after{
+  @apply content-[''] absolute left-0 bottom-0 w-14 h-0.5 bg-cerise-400
+}

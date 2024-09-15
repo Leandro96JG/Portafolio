@@ -1,0 +1,10 @@
+.content{
+  @apply flex flex-col justify-between h-[600px] items-center
+}
+
+.img-project{
+  @apply w-[500px] h-auto md:w-[600px]
+}
+img{
+  @apply rounded-lg
+}

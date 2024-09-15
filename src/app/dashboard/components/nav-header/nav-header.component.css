@@ -1,3 +1,7 @@
+
+
+/*====== CONTENEDOR DEL NAV ======= */
+
 nav{
   @apply  backdrop-blur-sm shadow-xl w-max rounded-lg fixed z-50
   top-5 left-0 right-0 mx-auto
@@ -29,8 +33,11 @@ li:hover{
 }
 
 
+/*====== TEXT NAV  ======= */
 
-
+.text-nav{
+  @apply hidden md:block
+}
 
 
 /*================== ICONOS ============== */
