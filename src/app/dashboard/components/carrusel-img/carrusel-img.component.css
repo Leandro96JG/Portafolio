@@ -1,0 +1,38 @@
+
+
+
+/* ! ========= EL Problema es el flex del contenedor ============== */
+
+.slider{
+  @apply w-[80vw] h-auto m-auto overflow-hidden md:w-[800px]
+}
+
+.slider .slide-track{
+  width: calc(200px * 28);
+  @apply flex animation-slide gap-20
+}
+
+.slider .slide{
+  @apply w-[200px] flex flex-col gap-10 items-center h-auto justify-around
+}
+
+img{
+  @apply w-full flex items-center justify-center
+}
+
+span{
+  @apply font-bold text-cerise-100
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 14));
+  }
+}
+
+.animation-slide{
+  animation: scroll 15s linear infinite;
+}

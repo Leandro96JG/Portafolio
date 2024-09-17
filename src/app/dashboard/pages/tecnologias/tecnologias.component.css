@@ -1,15 +1,36 @@
 section{
-  @apply flex justify-center h-auto items-center w-screen mt-20
+  @apply flex justify-center h-auto items-center w-full mt-20 pb-[100px]
 }
+
 /* ============= CONTENEDOR DEL TITULO =================*/
 .content{
-  @apply w-[800px] gap-2 flex flex-col
+  @apply md:w-[800px] w-max h-auto gap-2 flex flex-col
 }
 
 h2{
-  @apply text-4xl inline relative mx-auto md:mx-0
+  @apply text-4xl relative mx-auto md:mx-0
 }
 
 h2::after{
   @apply content-[''] absolute left-0 bottom-0 w-14 h-0.5 bg-cerise-400
 }
+
+
+.text-img{
+  @apply flex flex-col h-auto w-full gap-10
+}
+
+
+p{
+  @apply text-center px-5 md:px-0 h-auto
+}
+
+.text-p{
+  @apply flex flex-col gap-6
+}
+
+img{
+  @apply w-[100px] h-auto object-cover
+}
+
+

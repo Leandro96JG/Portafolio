@@ -9,6 +9,8 @@ import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.com
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
 import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { CarruselImgComponent } from './components/carrusel-img/carrusel-img.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component'
     NotPageFoundComponent,
     HomePageComponent,
     SobreMiComponent,
-    TecnologiasComponent
+    TecnologiasComponent,
+    ContactoComponent,
+    CarruselImgComponent
   ],
   imports: [
     CommonModule,

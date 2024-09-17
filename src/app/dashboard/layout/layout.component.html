@@ -3,7 +3,10 @@
     <img src="" alt="">
   </div>
   <nav-header></nav-header>
-  <router-outlet></router-outlet>
+  <div class="router" [@routeAnimations]="prepareRoute()">
+    <router-outlet></router-outlet>
+  </div>
+
 
 </div>
 

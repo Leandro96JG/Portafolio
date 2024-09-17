@@ -1,3 +1,6 @@
+header{
+  @apply pb-[100px]
+}
 .layout{
   @apply flex justify-center h-auto items-center w-screen mt-20
 }
@@ -48,4 +51,8 @@ h4{
 
 .frase{
   @apply italic text-cerise-800
+}
+
+.text-p{
+  @apply px-5 flex flex-col gap-5 md:px-0
 }

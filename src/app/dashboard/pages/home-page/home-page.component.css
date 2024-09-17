@@ -20,11 +20,11 @@ header{
 
 
 .text-h3{
-  @apply flex items-center justify-center gap-x-2
+  @apply flex items-center justify-center md:gap-x-2 text-center
 }
 
 .text-h1{
-  @apply text-gradient
+  @apply text-gradient text-center
 }
 
 /* ============== ICONS BUTTONS HEADER ===================== */

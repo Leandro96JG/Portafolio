@@ -1,0 +1,21 @@
+  <div class="slider">
+
+    <div class="slide-track">
+
+      <div class="slide" *ngFor="let image of images">
+
+        <img [src]="image.urlImages" [alt]="image.name">
+        <span> {{image.name}} </span>
+
+      </div>
+
+      <div class="slide" *ngFor="let image of images">
+
+        <img [src]="image.urlImages" [alt]="image.name">
+        <span> {{image.name}} </span>
+
+      </div>
+      
+    </div>
+
+  </div>

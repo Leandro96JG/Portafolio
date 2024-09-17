@@ -84,7 +84,17 @@ module.exports = {
     },
 
 
-    extend: {},
+    extend: {
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
+      },
+      animation: {
+        scroll: 'scroll 5s linear infinite',
+      }
+    },
   },
   plugins: [
     function({addUtilities}){

@@ -1,7 +1,7 @@
 
 
 header{
-  @apply flex justify-center h-auto items-center w-screen mt-20
+  @apply flex justify-center h-auto items-center w-screen mt-20 pb-[100px]
 }
 /* ============= CONTENEDOR DEL TITULO =================*/
 .content{

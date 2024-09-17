@@ -4,7 +4,7 @@
 
 nav{
   @apply  backdrop-blur-sm shadow-xl w-max rounded-lg fixed z-50
-  top-5 left-0 right-0 mx-auto
+  bottom-5 left-0 right-0 mx-auto md:top-5 md:bottom-auto
 }
 
 ul{

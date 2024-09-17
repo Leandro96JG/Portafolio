@@ -6,13 +6,15 @@ import { ProyectosComponent } from './proyectos.component';
 import { OneProyectComponent } from './pages/one-project/one-proyect.component';
 import { TwoProyectComponent } from './pages/two-project/two-proyect.component';
 import { AppRoutingModule } from '../../../app-routing.module';
+import { ThreeProjectComponent } from './pages/three-project/three-project.component';
 
 
 @NgModule({
   declarations: [
     ProyectosComponent,
     OneProyectComponent,
-    TwoProyectComponent
+    TwoProyectComponent,
+    ThreeProjectComponent
   ],
   imports: [
     CommonModule,
