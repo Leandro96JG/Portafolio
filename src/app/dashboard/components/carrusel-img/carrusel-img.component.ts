@@ -13,59 +13,59 @@ interface images{
 export class CarruselImgComponent{
   images:images[]=[
     {
-      urlImages:'../../../../assets/icons/html5-without-wordmark-color-seeklogo.svg',
+      urlImages:'icons/html.svg',
       name:'Html',
     },
     {
-      urlImages:'../../../../assets/icons/css-3-seeklogo.svg',
+      urlImages:'icons/css.svg',
       name:'Css',
     },
     {
-      urlImages:'../../../../assets/icons/javascript-js-seeklogo.svg',
+      urlImages:'icons/js.svg',
       name:'JavaScript',
     },
     {
-      urlImages:'../../../../assets/icons/typescript-seeklogo.svg',
+      urlImages:'icons/ts.svg',
       name:'TypeScript',
     },
     {
-      urlImages:'../../../../assets/icons/angular.svg',
+      urlImages:'icons/angular.svg',
       name:'Angular',
     },
     {
-      urlImages:'../../../../assets/icons/material-ui-seeklogo.svg',
+      urlImages:'icons/material.svg',
       name:'Material UI',
     },
     {
-      urlImages:'../../../../assets/icons/bootstrap-5-seeklogo.svg',
+      urlImages:'icons/bootstrap.svg',
       name:'Bootstrap',
     },
     {
-      urlImages:'../../../../assets/icons/tailwind-css-seeklogo.svg',
+      urlImages:'icons/tailwind.svg',
       name:'Tailwind',
     },
     {
-      urlImages:'../../../../assets/icons/java-seeklogo.svg',
+      urlImages:'icons/java.svg',
       name:'Java',
     },
     {
-      urlImages:'../../../../assets/icons/spring-boot-seeklogo.svg',
+      urlImages:'icons/spring.svg',
       name:'Spring Boot',
     },
     {
-      urlImages:'../../../../assets/icons/mysql-seeklogo.svg',
+      urlImages:'icons/mysql.svg',
       name:'MySQL',
     },
     {
-      urlImages:'../../../../assets/icons/jwt-seeklogo.svg',
+      urlImages:'icons/jwt.svg',
       name:'JWT',
     },
     {
-      urlImages:'../../../../assets/icons/git-seeklogo.svg',
+      urlImages:'icons/git.svg',
       name:'Git',
     },
     {
-      urlImages:'../../../../assets/icons/icons8-github.svg',
+      urlImages:'icons/github.svg',
       name:'GitHub',
     },
   ]
