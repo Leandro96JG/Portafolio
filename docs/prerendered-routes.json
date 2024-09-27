@@ -1,0 +1,22 @@
+{
+  "routes": [
+    "/",
+    "/about-me",
+    "/contacto",
+    "/dashboard",
+    "/dashboard/about-me",
+    "/dashboard/contacto",
+    "/dashboard/home",
+    "/dashboard/proyectos",
+    "/dashboard/proyectos/one",
+    "/dashboard/proyectos/three",
+    "/dashboard/proyectos/two",
+    "/dashboard/tecnologías",
+    "/home",
+    "/proyectos",
+    "/proyectos/one",
+    "/proyectos/three",
+    "/proyectos/two",
+    "/tecnologías"
+  ]
+}
