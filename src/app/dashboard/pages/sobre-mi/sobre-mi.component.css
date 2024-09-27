@@ -2,7 +2,7 @@ header{
   @apply pb-[100px]
 }
 .layout{
-  @apply flex justify-center h-auto items-center w-screen mt-20
+  @apply flex justify-center h-auto items-center w-screen mt-20 md:mt-32
 }
 /* ============= CONTENEDOR DEL TITULO =================*/
 .content{

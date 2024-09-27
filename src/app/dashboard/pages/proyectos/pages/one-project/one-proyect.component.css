@@ -1,5 +1,5 @@
 .content{
-  @apply flex flex-col justify-between h-[600px] items-center
+  @apply flex flex-col justify-evenly h-[600px] md:gap-20 items-center
 }
 
 .img-project{

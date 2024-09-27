@@ -1,1 +1,60 @@
-<p>contacto works!</p>
+<section>
+
+  <div class="content">
+    <h2 [@fadeInTitle]>Contáctame</h2>
+
+    <form [formGroup]="emailForm" autocomplete="off" [@fadeInTitle3]>
+
+      <!-- ========= Input Nombre y Apellido ===========-->
+
+      <div class="container-input-text">
+
+        <div class="div-container">
+          <label for="">Nombre y Apellido</label>
+        </div>
+        <div class="input-form">
+          <span class="material-symbols-outlined icons">person</span>
+          <input formControlName="name" type="text" class="input" placeholder="Escribe tu nombre">
+        </div>
+        <span *ngIf="isValidField('name')" class="error-text">Ingrese su nombre y apellido porfavor</span>
+      </div>
+
+      <!-- ========= Input Email ===========-->
+
+      <div class="container-input-text">
+
+        <div class="div-container">
+          <label for="">Email</label>
+        </div>
+        <div class="input-form">
+          <span class="material-symbols-outlined icons">alternate_email</span>
+          <input formControlName="email" type="text" class="input" placeholder="Escribe tu email">
+        </div>
+        <span *ngIf="isValidField('email')" class="error-text">Ingrese email valido porfavor</span>
+      </div>
+
+      <!-- ========= Input Mensaje ===========-->
+
+      <div class="container-input-text">
+
+        <div class="div-container">
+          <label for="">Mensaje</label>
+        </div>
+
+        <div class="input-textarea-form">
+          <span class="material-symbols-outlined icons">chat_bubble</span>
+          <textarea formControlName="message" name="mensaje" class="input-textarea textarea" placeholder="Escribe tu mensaje" id=""></textarea>
+        </div>
+        <span *ngIf="isValidField('message')" class="error-text">Mensaje no valido</span>
+      </div>
+
+      <button [disabled]="emailForm.valid" class="button-submit" type="submit">Enviar</button>
+
+    </form>
+
+  </div>
+
+
+</section>
+
+

@@ -1,32 +1,41 @@
 
 
+
+
 header{
-  @apply flex justify-center h-auto items-center w-screen mt-20 pb-[100px]
+  @apply flex justify-center h-auto items-center w-screen mt-20 md:mt-32 pb-[100px]
 }
 /* ============= CONTENEDOR DEL TITULO =================*/
 .content{
-  @apply w-[800px] gap-2 flex flex-col
+  @apply w-auto md:w-[800px] gap-2 flex flex-col
 }
 
 
-h2{
-  @apply text-4xl inline relative mx-auto md:mx-0
+.div-h2{
+  @apply inline relative mx-auto md:mx-0
 }
 
-h2::after{
+.div-h2::after{
   @apply content-[''] absolute left-0 bottom-0 w-14 h-0.5 bg-cerise-400
 }
 
+h2{
+  @apply text-4xl
+}
+
 /* ============= CONTENEDOR DE LOS NAV_LINKS =================*/
+nav{
+  @apply mx-auto md:w-[800px] w-auto
+}
 
 ul{
-  @apply flex justify-center gap-5
+  @apply flex justify-evenly gap-5 items-center
 }
 li{
-  @apply font-bold text-cerise-400 cursor-pointer text-xl
+  @apply font-bold text-center text-cerise-50 cursor-pointer md:text-xl p-3 rounded-sm
 }
 .active{
-  @apply text-cerise-950
+  @apply border-b-2 text-shark-50 animate-pulse
 }
 
 

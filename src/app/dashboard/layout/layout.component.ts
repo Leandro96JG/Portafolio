@@ -11,29 +11,18 @@ import { ChildrenOutletContexts } from '@angular/router';
     trigger('routeAnimations', [
 
       transition('* <=> *', [
-        style({position: 'relative'}),
-        query(
-          ':enter, :leave',
-          [
-            style({
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-            }),
-          ],
-          {optional: true},
-        ),
-        query(':enter', [style({left: '-100%'})], {optional: true}),
-        query(':leave', animateChild(), {optional: true}),
+        query(':enter, :leave', style({ position: 'absolute', width: '100%' }), { optional: true }),
         group([
-          query(':leave', [animate('200ms ease-out', style({left: '100%', opacity: 0}))], {
-            optional: true,
-          }),
-          query(':enter', [animate('300ms ease-out', style({left: '0%'}))], {optional: true}),
-          query('@*', animateChild(), {optional: true}),
-        ]),
-      ]),
+          query(':leave', [
+            animate('600ms ease-out', style({ opacity: 0 }))
+          ], { optional: true }),
+          query(':enter', [
+            style({ opacity: 0 }),
+            animate('300ms ease-in', style({ opacity: 1 }))
+          ], { optional: true }),
+          query('@*', animateChild(), { optional: true })  // Permite que las animaciones hijas ocurran al mismo tiempo
+        ])
+      ])
     ])
   ]
 })

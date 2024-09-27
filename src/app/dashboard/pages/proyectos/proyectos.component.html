@@ -3,16 +3,24 @@
 
   <div class="content">
 
-    <h2>Proyectos</h2>
-    <nav>
+    <div class="div-h2" [@fadeInTitle]="'in'">
+      <h2>Proyectos</h2>
+    </div>
+
+
+    <nav [@fadeInTitle2]>
       <ul>
-        <li class="links-nav" routerLink="one" routerLinkActive="active">1</li>
-        <li class="links-nav" routerLink="two" routerLinkActive="active">2</li>
-        <li class="links-nav" routerLink="three" routerLinkActive="active">3</li>
+        <li class="links-nav" routerLink="one" routerLinkActive="active">Ecommerce</li>
+        <li class="links-nav" routerLink="two" routerLinkActive="active">Adidas</li>
+        <li class="links-nav" routerLink="three" routerLinkActive="active">TodoApp</li>
+        <li class="links-nav" routerLink="mas" routerLinkActive="active">Mas..</li>
       </ul>
     </nav>
+    <div [@fadeInTitle2] class="line">
 
-    <div class="router" [@routeAnimations]="prepareRoute()">
+    </div>
+
+    <div [@fadeInTitle] class="router" [@routeAnimations]="prepareRoute()">
       <router-outlet></router-outlet>
     </div>
 

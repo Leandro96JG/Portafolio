@@ -1,5 +1,5 @@
 section{
-  @apply flex justify-center h-auto items-center w-full mt-20 pb-[100px]
+  @apply flex justify-center h-auto items-center w-full mt-20 pb-[100px] md:mt-32
 }
 
 /* ============= CONTENEDOR DEL TITULO =================*/
@@ -17,7 +17,7 @@ h2::after{
 
 
 .text-img{
-  @apply flex flex-col h-auto w-full gap-10
+  @apply flex flex-col w-full gap-10 justify-evenly md:h-[70vh]
 }
 
 

@@ -1,6 +1,36 @@
 
-.layout{
+/* .layout{
   @apply w-auto h-auto
+} */
+
+.layout{
+  margin: 0;
+  padding: 0;
+  scrollbar-gutter:stable both-edges;
 }
 
+
+.svg{
+  @apply fixed -z-10 opacity-55
+}
+
+
+img{
+  @apply w-[200px] h-auto md:w-[200px] opacity-35
+}
+
+.nub-img{
+  @apply bottom-4 right-4 rotate-12 md:bottom-10 md:right-[10%]
+}
+
+.angular-img{
+  @apply bottom-[33%] left-4 md:left-40 -rotate-12
+}
+
+.java-img{
+  @apply top-[10%] right-4 rotate-12
+}
+.mysql-img{
+  @apply top-2 left-4 md:left-20 -rotate-12
+}
 

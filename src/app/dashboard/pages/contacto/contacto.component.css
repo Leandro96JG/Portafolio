@@ -1,0 +1,87 @@
+
+
+section{
+  @apply flex justify-center h-auto items-center w-full mt-20 pb-[100px] md:mt-32
+}
+
+.content{
+  @apply md:w-[800px] w-max h-auto gap-2 flex flex-col
+}
+
+h2{
+  @apply text-4xl relative mx-auto md:mx-0
+}
+
+h2::after{
+  @apply content-[''] absolute left-0 bottom-0 w-14 h-0.5 bg-cerise-400
+}
+
+/* ========================= Contenedor del Form =============*/
+
+form{
+  @apply mx-auto flex flex-col w-[400px] h-[70vh] items-center
+  justify-between bg-shark-50 md:w-[450px] p-[30px]
+  text-shark-900 rounded-[10px]
+}
+
+.error-text{
+  @apply absolute text-xs text-cerise-600
+}
+
+::placeholder{
+  @apply font-extralight text-shark-400
+}
+
+label{
+  @apply text-shark-600 font-medium
+}
+
+/* =========== Input Chicos =============*/
+
+
+.input-form{
+  @apply border-[1.5px] border-shark-400 rounded-[10px] h-[50px] flex items-center
+   pl-2 transition-colors delay-200 ease-in-out
+}
+
+.input{
+  @apply ml-[10px] rounded-[10px] border-none w-[300px] h-[100%]
+}
+.input:focus{
+  @apply outline-none
+}
+
+.input-form:focus-within{
+  @apply border-[1.5px] border-cerise-500
+}
+
+/* =========== Input Text Area =============*/
+
+.input-textarea-form{
+  @apply  h-[200px] border-shark-400 rounded-[10px] border-[1.5px]
+          flex items-center pl-2 transition-colors delay-200 ease-in-out
+}
+
+.input-textarea{
+  @apply w-[300px] h-full ml-[10px] rounded-[10px] border-none
+}
+
+.input-textarea:focus{
+  @apply outline-none
+}
+.input-textarea-form:focus-within{
+  @apply border-[1.5px] border-cerise-500
+}
+
+
+
+.button-submit{
+  @apply mt-[20px] mb-[10px] bg-shark-950 text-shark-50 text-[15px] font-medium
+        rounded-lg h-[50px] w-full cursor-pointer
+}
+
+.button-submit:hover{
+  @apply bg-shark-900
+}
+
+

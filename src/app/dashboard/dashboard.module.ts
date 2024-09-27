@@ -11,6 +11,7 @@ import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
 import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CarruselImgComponent } from './components/carrusel-img/carrusel-img.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CarruselImgComponent } from './components/carrusel-img/carrusel-img.com
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
   ]
 })
 export class DashboardModule { }
