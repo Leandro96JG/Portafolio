@@ -1,1 +1,0 @@
-import{a as n,b as i}from"./chunk-VG74TXYT.js";import{X as m,ea as e,k as r,p as t}from"./chunk-KMWXDE4J.js";var w=(()=>{class o{static \u0275fac=function(p){return new(p||o)};static \u0275mod=t({type:o});static \u0275inj=r({imports:[m,i,e,n]})}return o})();export{w as DashboardModule};
