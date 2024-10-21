@@ -32,10 +32,10 @@ ul{
   @apply flex justify-evenly gap-5 items-center
 }
 li{
-  @apply font-bold text-center text-cerise-50 cursor-pointer md:text-xl p-3 rounded-sm
+  @apply font-bold text-center  cursor-pointer md:text-xl p-3 rounded-sm
 }
 .active{
-  @apply border-b-2 text-shark-50 animate-pulse
+  @apply border-b-2  animate-pulse
 }
 
 

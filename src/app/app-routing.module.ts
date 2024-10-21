@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardRoutingModule } from './dashboard/dashboard-routing.module';
 import { NotPageFoundComponent } from './dashboard/pages/not-page-found/not-page-found.component';
-import { animation } from '@angular/animations';
 
 const routes: Routes = [
   {

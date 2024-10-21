@@ -12,6 +12,7 @@ import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component'
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CarruselImgComponent } from './components/carrusel-img/carrusel-img.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ThemeButtonComponent } from './components/theme-button/theme-button.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SobreMiComponent,
     TecnologiasComponent,
     ContactoComponent,
-    CarruselImgComponent
+    CarruselImgComponent,
+    ThemeButtonComponent
   ],
   imports: [
     CommonModule,

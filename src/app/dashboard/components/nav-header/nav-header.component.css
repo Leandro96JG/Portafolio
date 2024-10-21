@@ -14,11 +14,11 @@ ul{
 
 /*====== RUTA ACTIVA NO HACE NADA ======= */
 li.active{
-  @apply opacity-100 bg-shark-100 text-shark-800
+  @apply opacity-100 bg-shark-100 
 }
 
 li.active:hover{
-  @apply opacity-100 bg-shark-100 text-shark-800 cursor-default
+  @apply opacity-100 bg-shark-100  fill-shark-800 cursor-default
 }
 
 /*====== LINKS NO ACTIVOS  ======= */
@@ -29,9 +29,16 @@ li{
 }
 
 li:hover{
-  @apply bg-dune-200 cursor-pointer text-shark-800
+  @apply bg-shark-50 cursor-pointer text-shark-800 fill-shark-800
 }
 
+svg{
+  @apply fill-shark-800
+}
+
+svg:hover{
+  @apply fill-shark-800
+}
 
 /*====== TEXT NAV  ======= */
 

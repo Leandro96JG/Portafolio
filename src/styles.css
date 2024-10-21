@@ -5,7 +5,11 @@
 
 body{
   font-family: "Poppins", sans-serif;
-  @apply bg-shark-950 text-dune-100
+  @apply bg-shark-950 text-dune-50
+}
+
+body.dark-mode {
+  @apply bg-dune-50 text-shark-950
 }
 
 h1{
@@ -37,7 +41,7 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar-thumb:hover{
   @apply bg-shark-200
 }
-/* 
+/*
 body,
 html{
   margin: 0;
